@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1609579167099606378, guid: 7dcb6327d703fa7499ec9a4f6820e504, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609579167099606378, guid: 7dcb6327d703fa7499ec9a4f6820e504, type: 3}
+      propertyPath: m_StringReference.m_TableReference.m_TableCollectionName
+      value: GUID:c47cb13c66bb4524f93684e183b8a3d1
+      objectReference: {fileID: 0}
     - target: {fileID: 8299416373694424032, guid: 7dcb6327d703fa7499ec9a4f6820e504, type: 3}
       propertyPath: m_Name
       value: Canvas
