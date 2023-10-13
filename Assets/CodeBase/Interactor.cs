@@ -23,6 +23,8 @@ namespace CodeBase
         {
             RaycastHit2D raycastHit2D = Physics2D.Raycast(origin, direction);
             
+            if (raycastHit2D.collider == null) return;
+
             if (raycastHit2D.collider.TryGetComponent(out CharacterView characterView))
                 characterView.PlayAnimation();
             
