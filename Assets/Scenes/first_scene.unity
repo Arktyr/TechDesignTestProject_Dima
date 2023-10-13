@@ -196,6 +196,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2825011507719468268, guid: bc7bc5690d71abc45b3e4c1bd7fdde90, type: 3}
+      propertyPath: _button
+      value: 
+      objectReference: {fileID: 2022851932}
     - target: {fileID: 2825011508357028532, guid: bc7bc5690d71abc45b3e4c1bd7fdde90, type: 3}
       propertyPath: m_Name
       value: static_sprites
@@ -318,6 +322,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 061b312614524b95b7376f735a65daeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2022851932 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1223874910182193977, guid: ad80f4826e0cdbc4288477e71cb24da2, type: 3}
+  m_PrefabInstance: {fileID: 1223874911651397231}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022851924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1223874911651397231
