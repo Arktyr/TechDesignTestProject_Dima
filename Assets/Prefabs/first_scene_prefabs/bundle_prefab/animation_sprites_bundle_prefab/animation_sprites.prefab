@@ -31,6 +31,7 @@ Transform:
   - {fileID: 5934467821509757543}
   - {fileID: 5934467821229418655}
   - {fileID: 5934467822369381175}
+  - {fileID: 3839442234989411307}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -43,7 +44,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6012780686950949072, guid: 7abe2b9affc4b0d40b62b594f413c386, type: 3}
       propertyPath: m_Name
-      value: character_02
+      value: penguine_character_02
       objectReference: {fileID: 0}
     - target: {fileID: 6012780686950949073, guid: 7abe2b9affc4b0d40b62b594f413c386, type: 3}
       propertyPath: m_RootOrder
@@ -96,6 +97,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6012780686950949073, guid: 7abe2b9affc4b0d40b62b594f413c386, type: 3}
   m_PrefabInstance: {fileID: 84098517426489422}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1731560164252389875
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5934467822530331107}
+    m_Modifications:
+    - target: {fileID: 3265053196419590680, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265053196419590680, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265053196419590680, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265053196419590680, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265053196419590680, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265053196419590680, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265053196419590680, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265053196419590680, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265053196419590680, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265053196419590680, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265053196419590680, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265053196419590684, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_Name
+      value: drunkboy_character
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265053197181450067, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+--- !u!4 &3839442234989411307 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3265053196419590680, guid: 9be667286b966c948b33a1e12e233de1, type: 3}
+  m_PrefabInstance: {fileID: 1731560164252389875}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2634205033859638486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -105,7 +172,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8563001570095836848, guid: 000292e611473b34685e193bfbcb9226, type: 3}
       propertyPath: m_Name
-      value: character_01
+      value: penguine_character_01
       objectReference: {fileID: 0}
     - target: {fileID: 8563001570095836849, guid: 000292e611473b34685e193bfbcb9226, type: 3}
       propertyPath: m_RootOrder
@@ -211,7 +278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8016468239219970043, guid: 8a19f7d39f3cb9b4e9628590951428a0, type: 3}
       propertyPath: m_Name
-      value: character_03
+      value: penguine_character_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a19f7d39f3cb9b4e9628590951428a0, type: 3}
